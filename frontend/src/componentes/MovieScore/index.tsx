@@ -1,5 +1,6 @@
+import MovieStar from 'componentes/MovieStar';
 import './styles.css';
-function MovieStar() {
+function MovieScore() {
     const score=3.5;
     const count=4;
     return (
@@ -11,4 +12,4 @@ function MovieStar() {
     );
 }
 
-export default MovieStar;
+export default MovieScore;
